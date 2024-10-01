@@ -1,0 +1,111 @@
+* {
+    color: white;
+    background-color: black;
+}
+.header-top-half {
+    display:flex;
+    justify-content: space-between;
+}
+.picture {
+    display:flex;
+}
+
+img {
+    height:150px;
+    width:150px;
+}
+
+.body {
+    display:flex;
+}
+
+.sidebar {
+    height: 900px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    /* align-items: flex-start; */
+
+}
+
+.skill-box {
+    display:flex;
+    align-items:center;
+    justify-content: flex-start;
+}
+
+.skill-bar {
+    height:20px;
+    width: 200px
+}
+
+.icon {
+    height:15px;
+    width:15px;
+}
+
+.language-box, .language-level {
+    display: flex;
+    align-items: center;
+}
+
+.level-circle {
+    height:20px;
+    width:20px;
+    border-radius:50%;
+
+}
+
+#photoshop-icon {
+    background-color: blue;
+}
+
+#illustrator-icon {
+    background-color: lightblue;
+}
+
+#indesign-icon {
+    background-color: green;
+}
+
+#coral-icon {
+    background-color: yellow;
+}
+
+#max-icon {
+    background-color: red;
+}
+
+
+
+#Wordpress-bar {
+    background-color: blue;
+}
+
+#PHP-bar {
+    background-color: lightblue;
+}
+
+#HTML-bar {
+    background-color: green;
+}
+
+#CSS-bar {
+    background-color: yellow;
+}
+
+#MySQL-bar {
+    background-color: red;
+}
+
+#english-level-circle {
+    background-color: lightblue;
+}
+
+#french-level-circle {
+    background-color: green;
+}
+
+#spanish-level-circle {
+    background-color: yellow;
+}
